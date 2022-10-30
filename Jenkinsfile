@@ -3,14 +3,16 @@ pipeline {
     agent any
 
     stages {
-        stage('NewButtom') {
+        stage('NewButton') {
             steps {
                 bat 'python NewButton.py'
             }
+        }
         stage('NewScreen') {
             steps {
                 bat 'python NewScreen.py'
             }
         }
     }
+    
 }
