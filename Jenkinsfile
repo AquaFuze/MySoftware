@@ -8,7 +8,6 @@ pipeline {
                 bat 'python NewButtom.py'
             }
         }
-    }
         stage('NewScreen') {
             steps {
                 bat 'python NewScreen.py'
