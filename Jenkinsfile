@@ -3,9 +3,12 @@ pipeline {
     agent any
 
     stages {
-        stage('MySoftware') {
+        stage('NewButtom') {
             steps {
-                bat 'python NewButtom.py'
+                bat 'python NewButton.py'
+            }
+        stage('NewScreen') {
+            steps {
                 bat 'python NewScreen.py'
             }
         }
