@@ -9,7 +9,7 @@ pipeline {
             }
         }
     }
-        stages {
+    stages {
         stage('NewScreen') {
             steps {
                 bat 'python NewScreen.py'
