@@ -1,4 +1,4 @@
-def wellcom()
+def wellcom():
     print("New Screen")
 
 wellcom()
